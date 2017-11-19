@@ -13,6 +13,7 @@ solves this problem: find the third maximum number in a list.
 * Last example: the third maximum number is the list [2, 1, 6, 2, 8,
   3, 5, 4, 3, 9, 7, 6] is 3. It literally finds the third maximum
   number from a list in O(n) complexity.
+
 My variation to the problem definition is more complex and difficult
 than the original one, therefore I do not intend to consciously solve
 it.
