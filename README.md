@@ -1,7 +1,7 @@
 # Leetcode problems - Solutions
 
 [Leetcode](https://leetcode.com/)\
-[Leetcode problems](https://leetcode.com/problemset/all/)\
+[Leetcode problems](https://leetcode.com/problemset/all/)
 
 I have solved the problems:
 * [Problem 414](https://leetcode.com/problems/third-maximum-number/description/)
