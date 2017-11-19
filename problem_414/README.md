@@ -1,7 +1,7 @@
 # Problem 414
-[Leetcode](https://leetcode.com/)
-[Leetcode problems](https://leetcode.com/problemset/all/)
-[Leetcode: problem 414](https://leetcode.com/problems/third-maximum-number/description/)
+[Leetcode](https://leetcode.com/)\
+[Leetcode problems](https://leetcode.com/problemset/all/)\
+[Leetcode: problem 414](https://leetcode.com/problems/third-maximum-number/description/)\
 
 This solution does not accurately solve the problem. My solution
 solves this problem: find the third maximum number in a list.
