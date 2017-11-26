@@ -5,7 +5,6 @@
 
 I have solved the problems:
 * [Problem 414](https://leetcode.com/problems/third-maximum-number/description/)
-  (variation).
 
 # Academic code of honour
 
