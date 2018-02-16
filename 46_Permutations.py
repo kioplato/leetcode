@@ -1,4 +1,4 @@
-# Python2.7
+#!/usr/bin/python2.7
 # 46_Permutations.py
 
 def permute(ordered_list, breakpoint = -1):
