@@ -62,3 +62,25 @@ class Solution2(object):
                 s = s + rv
                 memo[n - 1 - 2] = rv
         return s
+
+# After playing around with the problem I noticed the fibonacci sequence
+# pattern. Therefore for seeds f_0 = 1 and f_1 = 2 the climbStairs(n) = f_{n-1}.
+class Solution3(object):
+    def climbStairs(self, n):
+        """
+        Returns the # of ways to climb n stairs
+        while moving 1 or 2 steps each time.
+        Time Complexity: O(n).
+        Space Complexity: O(1).
+        :type n: int  # The number of stairs to climb.
+        :rtype: int  # The number of ways to climb n stairs.
+        """
+        if n < 4:
+            return n
+        f0 = 1
+        f1 = 2
+        for cand in range(2, n):  # For f_2 till f_{n-1}.
+            rv = f0 + f1
+            f0 = f1
+            f1 = rv
+        return f1
