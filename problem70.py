@@ -2,7 +2,7 @@
 
 # Even though this solution yields correct results. it's slow and gets time
 # limit exceeded in leetcode.com.
-class Solution(object):
+class Solution1(object):
     def climbStairs(self, n):
         """
         Returns the number of ways to climb n steps when you can climb one or
