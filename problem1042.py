@@ -1,5 +1,6 @@
 # 1042. Flower Planting With No Adjacent
 
+# Complexity: O(N).
 class Solution(object):
     def smallest_unique(self, neighbors, answer):
         neighbors_flowers = [answer[i - 1] for i in neighbors]
